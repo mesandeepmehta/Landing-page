@@ -7,8 +7,35 @@
 .nav{
     display:flex;
     width:100%;
-    height:3rem;
-    margin-bottom: 2rem;
+}
+ul{
+    display:flex;
+    padding-left: 0;
+    width: 100%;
+    justify-content: center;
+    
+}
+li{
+    float:left;
+    color:rgb(234, 144, 120);
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    height:30px;
+    width:20%;
+    display:block;
+}
+li a{
+    color:rgb(234, 144, 120);
+    text-decoration: none;
+    display:block;
+    height:50px;
+
+}
+ul a:hover{
+    color:rgb(101, 194, 173);
+    animation-duration: 50ms;
 }
 .container{
     display:flex;
@@ -22,6 +49,9 @@
     padding:0.5rem;
     color:#e8c060;
 
+}
+.H :hover{
+    font-size: 2rem;
 }
 .e{
     padding:0.5rem;
@@ -62,6 +92,7 @@
     margin-bottom: auto;
     margin-left: auto;
     text-align: center;
+    justify-content: center;
     line-height: 50px;
     font-size: 1rem;
     background-color:rgb(19, 136, 191);
